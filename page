@@ -1,1 +1,72 @@
 
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>poep</title>
+</head>
+<body style="background-color: rgb(255, 251, 242);">
+    <h1>website</h1>
+    <hr>
+  <h1>1</h1>
+  <h2>2</h2>
+  <h3>3</h3>
+  <h4>4</h4>
+  <br>
+  <h5>5</h5>
+  <br>
+  <h6>6</h6>  <!--comment-->
+    <a href="mailto:poep@outlook.com" target=_blank title="google">mail me</a>
+
+    <a href="p2.html" target=_blank title="google">2</a>
+    <a href="https://en.wikipedia.org/wiki/Shrek" target=_blank>
+    <img src="/images/voorbeeld.png" height="500" width="100" title="shrek is shrexy">
+    </a>
+    <audio controls autoplay muted loop >
+        <source src="poep.mp3">
+        <source src="poep.wav">
+        doesnt support html audio's
+    </audio>
+    <video controls autoplay loop muted>
+        <source  src="xxx.mp4">
+        <source src="www.WebM">
+        doesnt support html videos
+    </video>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, saepe autem, dignissimos labore, molestias modi magnam quaerat iusto nostrum laboriosam qui cumque? Voluptate iste libero laboriosam nisi quis ducimus dicta.</p>
+  <p>texttext</p>
+
+
+    <p>text</p>
+    <p><b>bold</b> text</p>
+    <p><i>italic</i> text</p>
+    <p><big>big</big> text</p>
+    <p><small>small</small> text</p>
+    <p><sub>sub</sub> text</p>
+    <p><sup>sup</sup> text</p>
+    <p><ins>ins</ins> text</p>
+    <p><del>del</del> text</p>
+    <br>
+    <p><mark>mark</mark> text</p>
+
+    <hr>
+
+    <h1 style="color: #ff0000;"  >RED</h1>
+    
+    <h1 style="color:#ff0000"  >RED</h1>
+
+    <button onclick="dosmth()" style="font-size: 25px; background-color: aqua; color: #ff0000; border-radius: 10px;">click me</button>
+
+    <p id="greet"> hello </p>
+
+    <script>
+        function dosmth(){
+            document.getElementById("greet").innerHTML = "doei";
+        }
+
+    </script>
+
+</body>
+
+
+</html>
